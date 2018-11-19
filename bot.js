@@ -353,7 +353,7 @@ client.on('message', message => {
 
 
 const devs = ["501902518302015501"]; //الايدي حقك
-const adminprefix = ["N"]; // البرفكس
+const adminprefix = ["AS"]; // البرفكس
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
